@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
     
-    <head> <link href="./style.css" type="text/css" rel="stylesheet" > </head>
+    <head> <link href="./style.css" type="text/css" rel="stylesheet" > 
+    <img src="logo.png" style="display: block; margin: auto; padding: 25px">
+
+    </head>
     
     <title>UCI Essentials</title>
     <meta charset="utf-8">
@@ -10,17 +13,19 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     
-    <body>
+    <body style="background-color:#326699; color: white">
         <div class="container-fluid">
             
-            <h1> UCI Essentials</h1>
-            
+
             <div class="row">
-                <div class="col-md-6" style="background-color: #326699; color: white" > 
+                <div class="col-md-6" > 
                     <h2>About</h2>
+                    <p style="font-size: 20px; padding-top: 30px">
+                        Looking for a place to sell your textbooks? Need to find a tutor for difficult classes? Look no further! UCI Essentials is your go-to site for all your buying and selling needs! UCI Essentials caters to all UCI Students looking to buy and sell their items and services. We aim to make your life easier by providing you with a dedicated space to buy from and sell to other UCI Students. Zot zot zot!
+                    </p>
                 </div>
                 
-                <div class="col-md-6" style="background-color: #326699; color: white"> 
+                <div class="col-md-6"> 
                     <h2 style="padding: 15 px">Welcome</h2>
                     
                     <form class="form-signin">
@@ -32,14 +37,13 @@
                         
                         <input type="password" class="form-control" name="password" placeholder="Password" required=""/>   
                         
-                         <button class="btn btn-md btn-default btn-block" type="submit" style="margin-top:10px">Login</button>  
+                         <button class="btn btn-md btn-default btn-block" type="button" style="margin-top:10px">Login</button>  
                         
-                         <button class="btn btn-md btn-basic btn-block" type="submit" style="margin-top:10px">Sign Up</button>  
+                         <button class="btn btn-md btn-basic btn-block" type="button" onclick="window.open('sign_up.html')"style="margin-top:10px">Don't have an account? Sign Up</button>  
                         
+
                         
-                        
-                        
-                        
+                     
                     </form>
 
                 </div>
